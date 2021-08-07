@@ -13,7 +13,7 @@ export class AnimalComponent {
 
   @Input() descricao = '';
 
-  @Input() set utl(url: string) {
+  @Input() set url(url: string) {
     if (url.startsWith('data')) {
       this.urlOriginal = url;
     } else {
@@ -24,6 +24,4 @@ export class AnimalComponent {
   get url(): string {
     return this.urlOriginal;
   }
-
-  constructor() {}
 }
