@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Router, Resolve, RouterStateSnapshot, ActivatedRouteSnapshot } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { Resolve, RouterStateSnapshot, ActivatedRouteSnapshot } from '@angular/router';
+import { Observable } from 'rxjs';
 import { switchMap, take } from 'rxjs/operators';
 import { UsuarioService } from 'src/app/autenticacao/usuario/usuario.service';
 import { Animais } from '../animais';

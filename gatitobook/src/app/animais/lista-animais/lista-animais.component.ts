@@ -1,11 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
-import { UsuarioService } from 'src/app/autenticacao/usuario/usuario.service';
 import { Animais } from '../animais';
-import { AnimaisService } from '../animais.service';
 
 @Component({
   selector: 'app-lista-animais',
